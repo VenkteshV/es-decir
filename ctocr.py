@@ -1,4 +1,4 @@
-import Image, ImageOps
+from PIL import Image, ImageOps
 import subprocess, sys, os, glob
 
 # minimum run of adjacent pixels to call something a line
